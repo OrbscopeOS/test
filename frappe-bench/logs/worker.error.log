@@ -1,0 +1,470 @@
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+    self.run()
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    return self.read_from_socket(timeout=timeout,
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+    return self._parser.can_read(timeout)
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)    
+return self.read_from_socket(timeout=timeout,
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+redis.exceptions.ConnectionError: Connection closed by server.
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    return self.read_from_socket(timeout=timeout,
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+    self.run()
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    return self.read_from_socket(timeout=timeout,
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    return self.read_from_socket(timeout=timeout,
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    return self.read_from_socket(timeout=timeout,
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+Exception in thread Exception in thread Thread-1Thread-1:
+:
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+      File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+self.run()
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+    self.run()
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    return self.read_from_socket(timeout=timeout,
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+    return self._parser.can_read(timeout)
+redis.exceptions  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+.ConnectionError: Connection closed by server.
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    return self.read_from_socket(timeout=timeout,
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+    return self._parser.can_read(timeout)
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    return self.read_from_socket(timeout=timeout,
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+Exception in thread Thread-1Exception in thread :
+Thread-1Traceback (most recent call last):
+:
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+        self.run()self.run()
+
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    return self.read_from_socket(timeout=timeout,
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    return self.read_from_socket(timeout=timeout,
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+    self.run()
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    return self.read_from_socket(timeout=timeout,
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+    return self._parser.can_read(timeout)
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    return self.read_from_socket(timeout=timeout,
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+    self.run()
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    return self.read_from_socket(timeout=timeout,
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    return self.read_from_socket(timeout=timeout,
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions    .raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)ConnectionError
+: Connection closed by server.
+redis.exceptions.ConnectionError: Connection closed by server.
+Exception in thread Exception in thread Thread-1:
+Thread-1Traceback (most recent call last):
+:
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+    self.run()
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+    self.run()
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+      File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+if not block and not conn.can_read(timeout=timeout):
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)    
+return self._parser.can_read(timeout)  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    return self.read_from_socket(timeout=timeout,
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    return self.read_from_socket(timeout=timeout,
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.    
+raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    return self.read_from_socket(timeout=timeout,
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+/home/s3/frappe-bench/env/lib/python3.10/site-packages/botocore/httpsession.py:19: DeprecationWarning: 'urllib3.contrib.pyopenssl' module is deprecated and will be removed in a future release of urllib3 2.x. Read more in this issue: https://github.com/urllib3/urllib3/issues/2680
+  from urllib3.contrib.pyopenssl import orig_util_SSLContext as SSLContext
+2023-10-30 15:04:53,164 Traceback (most recent call last):
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 1075, in perform_job
+    rv = job.perform()
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/rq/job.py", line 854, in perform
+    self._result = self._execute()
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/rq/job.py", line 877, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 192, in execute_job
+    retval = method(**kwargs)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/__init__.py", line 720, in sendmail
+    builder.process(send_now=now)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/email/doctype/email_queue/email_queue.py", line 655, in process
+    queue_data = self.as_dict(include_recipients=False)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/email/doctype/email_queue/email_queue.py", line 696, in as_dict
+    email_account = self.get_outgoing_email_account()
+  File "/home/s3/frappe-bench/apps/frappe/frappe/email/doctype/email_queue/email_queue.py", line 564, in get_outgoing_email_account
+    self._email_account = EmailAccount.find_outgoing(
+  File "/home/s3/frappe-bench/apps/frappe/frappe/email/doctype/email_account/email_account.py", line 43, in wrapper_cache_email_account
+    matched_accounts = func(*args, **kwargs)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/email/doctype/email_account/email_account.py", line 327, in find_outgoing
+    frappe.throw(
+  File "/home/s3/frappe-bench/apps/frappe/frappe/__init__.py", line 534, in throw
+    msgprint(
+  File "/home/s3/frappe-bench/apps/frappe/frappe/__init__.py", line 502, in msgprint
+    _raise_exception()
+  File "/home/s3/frappe-bench/apps/frappe/frappe/__init__.py", line 451, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.OutgoingEmailError: Please setup default Email Account from Setup > Email > Email Account
+Traceback (most recent call last):
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 1075, in perform_job
+    rv = job.perform()
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/rq/job.py", line 854, in perform
+    self._result = self._execute()
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/rq/job.py", line 877, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 192, in execute_job
+    retval = method(**kwargs)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/__init__.py", line 720, in sendmail
+    builder.process(send_now=now)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/email/doctype/email_queue/email_queue.py", line 655, in process
+    queue_data = self.as_dict(include_recipients=False)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/email/doctype/email_queue/email_queue.py", line 696, in as_dict
+    email_account = self.get_outgoing_email_account()
+  File "/home/s3/frappe-bench/apps/frappe/frappe/email/doctype/email_queue/email_queue.py", line 564, in get_outgoing_email_account
+    self._email_account = EmailAccount.find_outgoing(
+  File "/home/s3/frappe-bench/apps/frappe/frappe/email/doctype/email_account/email_account.py", line 43, in wrapper_cache_email_account
+    matched_accounts = func(*args, **kwargs)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/email/doctype/email_account/email_account.py", line 327, in find_outgoing
+    frappe.throw(
+  File "/home/s3/frappe-bench/apps/frappe/frappe/__init__.py", line 534, in throw
+    msgprint(
+  File "/home/s3/frappe-bench/apps/frappe/frappe/__init__.py", line 502, in msgprint
+    _raise_exception()
+  File "/home/s3/frappe-bench/apps/frappe/frappe/__init__.py", line 451, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.OutgoingEmailError: Please setup default Email Account from Setup > Email > Email Account
+2023-10-30 15:13:43,541 Traceback (most recent call last):
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 1075, in perform_job
+    rv = job.perform()
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/rq/job.py", line 854, in perform
+    self._result = self._execute()
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/rq/job.py", line 877, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 192, in execute_job
+    retval = method(**kwargs)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/__init__.py", line 720, in sendmail
+    builder.process(send_now=now)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/email/doctype/email_queue/email_queue.py", line 655, in process
+    queue_data = self.as_dict(include_recipients=False)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/email/doctype/email_queue/email_queue.py", line 696, in as_dict
+    email_account = self.get_outgoing_email_account()
+  File "/home/s3/frappe-bench/apps/frappe/frappe/email/doctype/email_queue/email_queue.py", line 564, in get_outgoing_email_account
+    self._email_account = EmailAccount.find_outgoing(
+  File "/home/s3/frappe-bench/apps/frappe/frappe/email/doctype/email_account/email_account.py", line 43, in wrapper_cache_email_account
+    matched_accounts = func(*args, **kwargs)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/email/doctype/email_account/email_account.py", line 327, in find_outgoing
+    frappe.throw(
+  File "/home/s3/frappe-bench/apps/frappe/frappe/__init__.py", line 534, in throw
+    msgprint(
+  File "/home/s3/frappe-bench/apps/frappe/frappe/__init__.py", line 502, in msgprint
+    _raise_exception()
+  File "/home/s3/frappe-bench/apps/frappe/frappe/__init__.py", line 451, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.OutgoingEmailError: Please setup default Email Account from Setup > Email > Email Account
+Traceback (most recent call last):
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 1075, in perform_job
+    rv = job.perform()
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/rq/job.py", line 854, in perform
+    self._result = self._execute()
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/rq/job.py", line 877, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 192, in execute_job
+    retval = method(**kwargs)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/__init__.py", line 720, in sendmail
+    builder.process(send_now=now)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/email/doctype/email_queue/email_queue.py", line 655, in process
+    queue_data = self.as_dict(include_recipients=False)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/email/doctype/email_queue/email_queue.py", line 696, in as_dict
+    email_account = self.get_outgoing_email_account()
+  File "/home/s3/frappe-bench/apps/frappe/frappe/email/doctype/email_queue/email_queue.py", line 564, in get_outgoing_email_account
+    self._email_account = EmailAccount.find_outgoing(
+  File "/home/s3/frappe-bench/apps/frappe/frappe/email/doctype/email_account/email_account.py", line 43, in wrapper_cache_email_account
+    matched_accounts = func(*args, **kwargs)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/email/doctype/email_account/email_account.py", line 327, in find_outgoing
+    frappe.throw(
+  File "/home/s3/frappe-bench/apps/frappe/frappe/__init__.py", line 534, in throw
+    msgprint(
+  File "/home/s3/frappe-bench/apps/frappe/frappe/__init__.py", line 502, in msgprint
+    _raise_exception()
+  File "/home/s3/frappe-bench/apps/frappe/frappe/__init__.py", line 451, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.OutgoingEmailError: Please setup default Email Account from Setup > Email > Email Account
+/home/s3/frappe-bench/env/lib/python3.10/site-packages/botocore/httpsession.py:19: DeprecationWarning: 'urllib3.contrib.pyopenssl' module is deprecated and will be removed in a future release of urllib3 2.x. Read more in this issue: https://github.com/urllib3/urllib3/issues/2680
+  from urllib3.contrib.pyopenssl import orig_util_SSLContext as SSLContext
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    return self.read_from_socket(timeout=timeout,
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+/home/s3/frappe-bench/env/lib/python3.10/site-packages/botocore/httpsession.py:19: DeprecationWarning: 'urllib3.contrib.pyopenssl' module is deprecated and will be removed in a future release of urllib3 2.x. Read more in this issue: https://github.com/urllib3/urllib3/issues/2680
+  from urllib3.contrib.pyopenssl import orig_util_SSLContext as SSLContext
+/home/s3/frappe-bench/env/lib/python3.10/site-packages/botocore/httpsession.py:19: DeprecationWarning: 'urllib3.contrib.pyopenssl' module is deprecated and will be removed in a future release of urllib3 2.x. Read more in this issue: https://github.com/urllib3/urllib3/issues/2680
+  from urllib3.contrib.pyopenssl import orig_util_SSLContext as SSLContext
+/home/s3/frappe-bench/env/lib/python3.10/site-packages/botocore/httpsession.py:19: DeprecationWarning: 'urllib3.contrib.pyopenssl' module is deprecated and will be removed in a future release of urllib3 2.x. Read more in this issue: https://github.com/urllib3/urllib3/issues/2680
+  from urllib3.contrib.pyopenssl import orig_util_SSLContext as SSLContext
+/home/s3/frappe-bench/env/lib/python3.10/site-packages/botocore/httpsession.py:19: DeprecationWarning: 'urllib3.contrib.pyopenssl' module is deprecated and will be removed in a future release of urllib3 2.x. Read more in this issue: https://github.com/urllib3/urllib3/issues/2680
+  from urllib3.contrib.pyopenssl import orig_util_SSLContext as SSLContext
+/home/s3/frappe-bench/env/lib/python3.10/site-packages/botocore/httpsession.py:19: DeprecationWarning: 'urllib3.contrib.pyopenssl' module is deprecated and will be removed in a future release of urllib3 2.x. Read more in this issue: https://github.com/urllib3/urllib3/issues/2680
+  from urllib3.contrib.pyopenssl import orig_util_SSLContext as SSLContext
+/home/s3/frappe-bench/env/lib/python3.10/site-packages/botocore/httpsession.py:19: DeprecationWarning: 'urllib3.contrib.pyopenssl' module is deprecated and will be removed in a future release of urllib3 2.x. Read more in this issue: https://github.com/urllib3/urllib3/issues/2680
+  from urllib3.contrib.pyopenssl import orig_util_SSLContext as SSLContext
+/home/s3/frappe-bench/env/lib/python3.10/site-packages/botocore/httpsession.py:19: DeprecationWarning: 'urllib3.contrib.pyopenssl' module is deprecated and will be removed in a future release of urllib3 2.x. Read more in this issue: https://github.com/urllib3/urllib3/issues/2680
+  from urllib3.contrib.pyopenssl import orig_util_SSLContext as SSLContext
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    return self.read_from_socket(timeout=timeout,
+  File "/home/s3/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.

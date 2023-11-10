@@ -1,0 +1,282 @@
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _997d57f0302a73b6 -p********** _997d57f0302a73b6 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./sona3elkhairerp.orbscopeapps.com/private/backups/20231029_200002-sona3elkhairerp_orbscopeapps_com-database.sql.gz
+
+Backup Summary for sona3elkhairerp.orbscopeapps.com at 2023-10-29 20:00:03.662336
+Config  : ./sona3elkhairerp.orbscopeapps.com/private/backups/20231029_200002-sona3elkhairerp_orbscopeapps_com-site_config_backup.json 177.0B
+Database: ./sona3elkhairerp.orbscopeapps.com/private/backups/20231029_200002-sona3elkhairerp_orbscopeapps_com-database.sql.gz         1.3MiB
+Backup for Site sona3elkhairerp.orbscopeapps.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _997d57f0302a73b6 -p********** _997d57f0302a73b6 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./sona3elkhairerp.orbscopeapps.com/private/backups/20231030_020003-sona3elkhairerp_orbscopeapps_com-database.sql.gz
+
+Backup Summary for sona3elkhairerp.orbscopeapps.com at 2023-10-30 02:00:06.754406
+Config  : ./sona3elkhairerp.orbscopeapps.com/private/backups/20231030_020003-sona3elkhairerp_orbscopeapps_com-site_config_backup.json 177.0B
+Database: ./sona3elkhairerp.orbscopeapps.com/private/backups/20231030_020003-sona3elkhairerp_orbscopeapps_com-database.sql.gz         1.3MiB
+Backup for Site sona3elkhairerp.orbscopeapps.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _997d57f0302a73b6 -p********** _997d57f0302a73b6 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./sona3elkhairerp.orbscopeapps.com/private/backups/20231030_080001-sona3elkhairerp_orbscopeapps_com-database.sql.gz
+
+Backup Summary for sona3elkhairerp.orbscopeapps.com at 2023-10-30 08:00:03.471819
+Config  : ./sona3elkhairerp.orbscopeapps.com/private/backups/20231030_080001-sona3elkhairerp_orbscopeapps_com-site_config_backup.json 177.0B
+Database: ./sona3elkhairerp.orbscopeapps.com/private/backups/20231030_080001-sona3elkhairerp_orbscopeapps_com-database.sql.gz         1.3MiB
+Backup for Site sona3elkhairerp.orbscopeapps.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _997d57f0302a73b6 -p********** _997d57f0302a73b6 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./sona3elkhairerp.orbscopeapps.com/private/backups/20231030_140002-sona3elkhairerp_orbscopeapps_com-database.sql.gz
+
+Backup Summary for sona3elkhairerp.orbscopeapps.com at 2023-10-30 14:00:04.496462
+Config  : ./sona3elkhairerp.orbscopeapps.com/private/backups/20231030_140002-sona3elkhairerp_orbscopeapps_com-site_config_backup.json 177.0B
+Database: ./sona3elkhairerp.orbscopeapps.com/private/backups/20231030_140002-sona3elkhairerp_orbscopeapps_com-database.sql.gz         1.3MiB
+Backup for Site sona3elkhairerp.orbscopeapps.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _997d57f0302a73b6 -p********** _997d57f0302a73b6 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./sona3elkhairerp.orbscopeapps.com/private/backups/20231030_200002-sona3elkhairerp_orbscopeapps_com-database.sql.gz
+
+Backup Summary for sona3elkhairerp.orbscopeapps.com at 2023-10-30 20:00:04.379863
+Config  : ./sona3elkhairerp.orbscopeapps.com/private/backups/20231030_200002-sona3elkhairerp_orbscopeapps_com-site_config_backup.json 177.0B
+Database: ./sona3elkhairerp.orbscopeapps.com/private/backups/20231030_200002-sona3elkhairerp_orbscopeapps_com-database.sql.gz         1.4MiB
+Backup for Site sona3elkhairerp.orbscopeapps.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _997d57f0302a73b6 -p********** _997d57f0302a73b6 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./sona3elkhairerp.orbscopeapps.com/private/backups/20231031_020003-sona3elkhairerp_orbscopeapps_com-database.sql.gz
+
+Backup Summary for sona3elkhairerp.orbscopeapps.com at 2023-10-31 02:00:06.366633
+Config  : ./sona3elkhairerp.orbscopeapps.com/private/backups/20231031_020003-sona3elkhairerp_orbscopeapps_com-site_config_backup.json 177.0B
+Database: ./sona3elkhairerp.orbscopeapps.com/private/backups/20231031_020003-sona3elkhairerp_orbscopeapps_com-database.sql.gz         1.4MiB
+Backup for Site sona3elkhairerp.orbscopeapps.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _997d57f0302a73b6 -p********** _997d57f0302a73b6 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./sona3elkhairerp.orbscopeapps.com/private/backups/20231031_080002-sona3elkhairerp_orbscopeapps_com-database.sql.gz
+
+Backup Summary for sona3elkhairerp.orbscopeapps.com at 2023-10-31 08:00:04.067058
+Config  : ./sona3elkhairerp.orbscopeapps.com/private/backups/20231031_080002-sona3elkhairerp_orbscopeapps_com-site_config_backup.json 177.0B
+Database: ./sona3elkhairerp.orbscopeapps.com/private/backups/20231031_080002-sona3elkhairerp_orbscopeapps_com-database.sql.gz         1.4MiB
+Backup for Site sona3elkhairerp.orbscopeapps.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _997d57f0302a73b6 -p********** _997d57f0302a73b6 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./sona3elkhairerp.orbscopeapps.com/private/backups/20231031_140002-sona3elkhairerp_orbscopeapps_com-database.sql.gz
+
+Backup Summary for sona3elkhairerp.orbscopeapps.com at 2023-10-31 14:00:04.945445
+Config  : ./sona3elkhairerp.orbscopeapps.com/private/backups/20231031_140002-sona3elkhairerp_orbscopeapps_com-site_config_backup.json 177.0B
+Database: ./sona3elkhairerp.orbscopeapps.com/private/backups/20231031_140002-sona3elkhairerp_orbscopeapps_com-database.sql.gz         1.4MiB
+Backup for Site sona3elkhairerp.orbscopeapps.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _997d57f0302a73b6 -p********** _997d57f0302a73b6 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./sona3elkhairerp.orbscopeapps.com/private/backups/20231031_200002-sona3elkhairerp_orbscopeapps_com-database.sql.gz
+
+Backup Summary for sona3elkhairerp.orbscopeapps.com at 2023-10-31 20:00:04.062466
+Config  : ./sona3elkhairerp.orbscopeapps.com/private/backups/20231031_200002-sona3elkhairerp_orbscopeapps_com-site_config_backup.json 177.0B
+Database: ./sona3elkhairerp.orbscopeapps.com/private/backups/20231031_200002-sona3elkhairerp_orbscopeapps_com-database.sql.gz         1.4MiB
+Backup for Site sona3elkhairerp.orbscopeapps.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _997d57f0302a73b6 -p********** _997d57f0302a73b6 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./sona3elkhairerp.orbscopeapps.com/private/backups/20231101_020002-sona3elkhairerp_orbscopeapps_com-database.sql.gz
+
+Backup Summary for sona3elkhairerp.orbscopeapps.com at 2023-11-01 02:00:05.796118
+Config  : ./sona3elkhairerp.orbscopeapps.com/private/backups/20231101_020002-sona3elkhairerp_orbscopeapps_com-site_config_backup.json 177.0B
+Database: ./sona3elkhairerp.orbscopeapps.com/private/backups/20231101_020002-sona3elkhairerp_orbscopeapps_com-database.sql.gz         1.4MiB
+Backup for Site sona3elkhairerp.orbscopeapps.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _997d57f0302a73b6 -p********** _997d57f0302a73b6 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./sona3elkhairerp.orbscopeapps.com/private/backups/20231101_080002-sona3elkhairerp_orbscopeapps_com-database.sql.gz
+
+Backup Summary for sona3elkhairerp.orbscopeapps.com at 2023-11-01 08:00:03.954292
+Config  : ./sona3elkhairerp.orbscopeapps.com/private/backups/20231101_080002-sona3elkhairerp_orbscopeapps_com-site_config_backup.json 177.0B
+Database: ./sona3elkhairerp.orbscopeapps.com/private/backups/20231101_080002-sona3elkhairerp_orbscopeapps_com-database.sql.gz         1.4MiB
+Backup for Site sona3elkhairerp.orbscopeapps.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _997d57f0302a73b6 -p********** _997d57f0302a73b6 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./sona3elkhairerp.orbscopeapps.com/private/backups/20231101_140001-sona3elkhairerp_orbscopeapps_com-database.sql.gz
+
+Backup Summary for sona3elkhairerp.orbscopeapps.com at 2023-11-01 14:00:03.634798
+Config  : ./sona3elkhairerp.orbscopeapps.com/private/backups/20231101_140001-sona3elkhairerp_orbscopeapps_com-site_config_backup.json 177.0B
+Database: ./sona3elkhairerp.orbscopeapps.com/private/backups/20231101_140001-sona3elkhairerp_orbscopeapps_com-database.sql.gz         1.4MiB
+Backup for Site sona3elkhairerp.orbscopeapps.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _997d57f0302a73b6 -p********** _997d57f0302a73b6 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./sona3elkhairerp.orbscopeapps.com/private/backups/20231101_200002-sona3elkhairerp_orbscopeapps_com-database.sql.gz
+
+Backup Summary for sona3elkhairerp.orbscopeapps.com at 2023-11-01 20:00:04.153919
+Config  : ./sona3elkhairerp.orbscopeapps.com/private/backups/20231101_200002-sona3elkhairerp_orbscopeapps_com-site_config_backup.json 177.0B
+Database: ./sona3elkhairerp.orbscopeapps.com/private/backups/20231101_200002-sona3elkhairerp_orbscopeapps_com-database.sql.gz         1.4MiB
+Backup for Site sona3elkhairerp.orbscopeapps.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _997d57f0302a73b6 -p********** _997d57f0302a73b6 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./sona3elkhairerp.orbscopeapps.com/private/backups/20231102_020002-sona3elkhairerp_orbscopeapps_com-database.sql.gz
+
+Backup Summary for sona3elkhairerp.orbscopeapps.com at 2023-11-02 02:00:05.818476
+Config  : ./sona3elkhairerp.orbscopeapps.com/private/backups/20231102_020002-sona3elkhairerp_orbscopeapps_com-site_config_backup.json 177.0B
+Database: ./sona3elkhairerp.orbscopeapps.com/private/backups/20231102_020002-sona3elkhairerp_orbscopeapps_com-database.sql.gz         1.4MiB
+Backup for Site sona3elkhairerp.orbscopeapps.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _997d57f0302a73b6 -p********** _997d57f0302a73b6 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./sona3elkhairerp.orbscopeapps.com/private/backups/20231102_080002-sona3elkhairerp_orbscopeapps_com-database.sql.gz
+
+Backup Summary for sona3elkhairerp.orbscopeapps.com at 2023-11-02 08:00:03.825772
+Config  : ./sona3elkhairerp.orbscopeapps.com/private/backups/20231102_080002-sona3elkhairerp_orbscopeapps_com-site_config_backup.json 177.0B
+Database: ./sona3elkhairerp.orbscopeapps.com/private/backups/20231102_080002-sona3elkhairerp_orbscopeapps_com-database.sql.gz         1.4MiB
+Backup for Site sona3elkhairerp.orbscopeapps.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _997d57f0302a73b6 -p********** _997d57f0302a73b6 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./sona3elkhairerp.orbscopeapps.com/private/backups/20231102_140002-sona3elkhairerp_orbscopeapps_com-database.sql.gz
+
+Backup Summary for sona3elkhairerp.orbscopeapps.com at 2023-11-02 14:00:04.182969
+Config  : ./sona3elkhairerp.orbscopeapps.com/private/backups/20231102_140002-sona3elkhairerp_orbscopeapps_com-site_config_backup.json 177.0B
+Database: ./sona3elkhairerp.orbscopeapps.com/private/backups/20231102_140002-sona3elkhairerp_orbscopeapps_com-database.sql.gz         1.4MiB
+Backup for Site sona3elkhairerp.orbscopeapps.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _997d57f0302a73b6 -p********** _997d57f0302a73b6 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./sona3elkhairerp.orbscopeapps.com/private/backups/20231102_200002-sona3elkhairerp_orbscopeapps_com-database.sql.gz
+
+Backup Summary for sona3elkhairerp.orbscopeapps.com at 2023-11-02 20:00:04.137863
+Config  : ./sona3elkhairerp.orbscopeapps.com/private/backups/20231102_200002-sona3elkhairerp_orbscopeapps_com-site_config_backup.json 177.0B
+Database: ./sona3elkhairerp.orbscopeapps.com/private/backups/20231102_200002-sona3elkhairerp_orbscopeapps_com-database.sql.gz         1.4MiB
+Backup for Site sona3elkhairerp.orbscopeapps.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _997d57f0302a73b6 -p********** _997d57f0302a73b6 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./sona3elkhairerp.orbscopeapps.com/private/backups/20231103_020002-sona3elkhairerp_orbscopeapps_com-database.sql.gz
+
+Backup Summary for sona3elkhairerp.orbscopeapps.com at 2023-11-03 02:00:05.730820
+Config  : ./sona3elkhairerp.orbscopeapps.com/private/backups/20231103_020002-sona3elkhairerp_orbscopeapps_com-site_config_backup.json 177.0B
+Database: ./sona3elkhairerp.orbscopeapps.com/private/backups/20231103_020002-sona3elkhairerp_orbscopeapps_com-database.sql.gz         1.4MiB
+Backup for Site sona3elkhairerp.orbscopeapps.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _997d57f0302a73b6 -p********** _997d57f0302a73b6 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./sona3elkhairerp.orbscopeapps.com/private/backups/20231103_080002-sona3elkhairerp_orbscopeapps_com-database.sql.gz
+
+Backup Summary for sona3elkhairerp.orbscopeapps.com at 2023-11-03 08:00:04.634105
+Config  : ./sona3elkhairerp.orbscopeapps.com/private/backups/20231103_080002-sona3elkhairerp_orbscopeapps_com-site_config_backup.json 177.0B
+Database: ./sona3elkhairerp.orbscopeapps.com/private/backups/20231103_080002-sona3elkhairerp_orbscopeapps_com-database.sql.gz         1.4MiB
+Backup for Site sona3elkhairerp.orbscopeapps.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _997d57f0302a73b6 -p********** _997d57f0302a73b6 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./sona3elkhairerp.orbscopeapps.com/private/backups/20231103_140002-sona3elkhairerp_orbscopeapps_com-database.sql.gz
+
+Backup Summary for sona3elkhairerp.orbscopeapps.com at 2023-11-03 14:00:04.781589
+Config  : ./sona3elkhairerp.orbscopeapps.com/private/backups/20231103_140002-sona3elkhairerp_orbscopeapps_com-site_config_backup.json 177.0B
+Database: ./sona3elkhairerp.orbscopeapps.com/private/backups/20231103_140002-sona3elkhairerp_orbscopeapps_com-database.sql.gz         1.4MiB
+Backup for Site sona3elkhairerp.orbscopeapps.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _997d57f0302a73b6 -p********** _997d57f0302a73b6 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./sona3elkhairerp.orbscopeapps.com/private/backups/20231103_200002-sona3elkhairerp_orbscopeapps_com-database.sql.gz
+
+Backup Summary for sona3elkhairerp.orbscopeapps.com at 2023-11-03 20:00:04.260804
+Config  : ./sona3elkhairerp.orbscopeapps.com/private/backups/20231103_200002-sona3elkhairerp_orbscopeapps_com-site_config_backup.json 177.0B
+Database: ./sona3elkhairerp.orbscopeapps.com/private/backups/20231103_200002-sona3elkhairerp_orbscopeapps_com-database.sql.gz         1.4MiB
+Backup for Site sona3elkhairerp.orbscopeapps.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _997d57f0302a73b6 -p********** _997d57f0302a73b6 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./sona3elkhairerp.orbscopeapps.com/private/backups/20231104_020003-sona3elkhairerp_orbscopeapps_com-database.sql.gz
+
+Backup Summary for sona3elkhairerp.orbscopeapps.com at 2023-11-04 02:00:05.645732
+Config  : ./sona3elkhairerp.orbscopeapps.com/private/backups/20231104_020003-sona3elkhairerp_orbscopeapps_com-site_config_backup.json 177.0B
+Database: ./sona3elkhairerp.orbscopeapps.com/private/backups/20231104_020003-sona3elkhairerp_orbscopeapps_com-database.sql.gz         1.4MiB
+Backup for Site sona3elkhairerp.orbscopeapps.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _997d57f0302a73b6 -p********** _997d57f0302a73b6 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./sona3elkhairerp.orbscopeapps.com/private/backups/20231104_080002-sona3elkhairerp_orbscopeapps_com-database.sql.gz
+
+Backup Summary for sona3elkhairerp.orbscopeapps.com at 2023-11-04 08:00:04.475780
+Config  : ./sona3elkhairerp.orbscopeapps.com/private/backups/20231104_080002-sona3elkhairerp_orbscopeapps_com-site_config_backup.json 177.0B
+Database: ./sona3elkhairerp.orbscopeapps.com/private/backups/20231104_080002-sona3elkhairerp_orbscopeapps_com-database.sql.gz         1.4MiB
+Backup for Site sona3elkhairerp.orbscopeapps.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _997d57f0302a73b6 -p********** _997d57f0302a73b6 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./sona3elkhairerp.orbscopeapps.com/private/backups/20231104_140002-sona3elkhairerp_orbscopeapps_com-database.sql.gz
+
+Backup Summary for sona3elkhairerp.orbscopeapps.com at 2023-11-04 14:00:04.107948
+Config  : ./sona3elkhairerp.orbscopeapps.com/private/backups/20231104_140002-sona3elkhairerp_orbscopeapps_com-site_config_backup.json 177.0B
+Database: ./sona3elkhairerp.orbscopeapps.com/private/backups/20231104_140002-sona3elkhairerp_orbscopeapps_com-database.sql.gz         1.4MiB
+Backup for Site sona3elkhairerp.orbscopeapps.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _997d57f0302a73b6 -p********** _997d57f0302a73b6 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./sona3elkhairerp.orbscopeapps.com/private/backups/20231104_200002-sona3elkhairerp_orbscopeapps_com-database.sql.gz
+
+Backup Summary for sona3elkhairerp.orbscopeapps.com at 2023-11-04 20:00:04.288713
+Config  : ./sona3elkhairerp.orbscopeapps.com/private/backups/20231104_200002-sona3elkhairerp_orbscopeapps_com-site_config_backup.json 177.0B
+Database: ./sona3elkhairerp.orbscopeapps.com/private/backups/20231104_200002-sona3elkhairerp_orbscopeapps_com-database.sql.gz         1.4MiB
+Backup for Site sona3elkhairerp.orbscopeapps.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _997d57f0302a73b6 -p********** _997d57f0302a73b6 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./sona3elkhairerp.orbscopeapps.com/private/backups/20231105_020003-sona3elkhairerp_orbscopeapps_com-database.sql.gz
+
+Backup Summary for sona3elkhairerp.orbscopeapps.com at 2023-11-05 02:00:07.322600
+Config  : ./sona3elkhairerp.orbscopeapps.com/private/backups/20231105_020003-sona3elkhairerp_orbscopeapps_com-site_config_backup.json 177.0B
+Database: ./sona3elkhairerp.orbscopeapps.com/private/backups/20231105_020003-sona3elkhairerp_orbscopeapps_com-database.sql.gz         1.4MiB
+Backup for Site sona3elkhairerp.orbscopeapps.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _997d57f0302a73b6 -p********** _997d57f0302a73b6 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./sona3elkhairerp.orbscopeapps.com/private/backups/20231105_080002-sona3elkhairerp_orbscopeapps_com-database.sql.gz
+
+Backup Summary for sona3elkhairerp.orbscopeapps.com at 2023-11-05 08:00:04.402640
+Config  : ./sona3elkhairerp.orbscopeapps.com/private/backups/20231105_080002-sona3elkhairerp_orbscopeapps_com-site_config_backup.json 177.0B
+Database: ./sona3elkhairerp.orbscopeapps.com/private/backups/20231105_080002-sona3elkhairerp_orbscopeapps_com-database.sql.gz         1.4MiB
+Backup for Site sona3elkhairerp.orbscopeapps.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _997d57f0302a73b6 -p********** _997d57f0302a73b6 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./sona3elkhairerp.orbscopeapps.com/private/backups/20231105_140003-sona3elkhairerp_orbscopeapps_com-database.sql.gz
+
+Backup Summary for sona3elkhairerp.orbscopeapps.com at 2023-11-05 14:00:05.201216
+Config  : ./sona3elkhairerp.orbscopeapps.com/private/backups/20231105_140003-sona3elkhairerp_orbscopeapps_com-site_config_backup.json 177.0B
+Database: ./sona3elkhairerp.orbscopeapps.com/private/backups/20231105_140003-sona3elkhairerp_orbscopeapps_com-database.sql.gz         1.4MiB
+Backup for Site sona3elkhairerp.orbscopeapps.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _997d57f0302a73b6 -p********** _997d57f0302a73b6 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./sona3elkhairerp.orbscopeapps.com/private/backups/20231105_200002-sona3elkhairerp_orbscopeapps_com-database.sql.gz
+
+Backup Summary for sona3elkhairerp.orbscopeapps.com at 2023-11-05 20:00:04.707017
+Config  : ./sona3elkhairerp.orbscopeapps.com/private/backups/20231105_200002-sona3elkhairerp_orbscopeapps_com-site_config_backup.json 177.0B
+Database: ./sona3elkhairerp.orbscopeapps.com/private/backups/20231105_200002-sona3elkhairerp_orbscopeapps_com-database.sql.gz         1.4MiB
+Backup for Site sona3elkhairerp.orbscopeapps.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _997d57f0302a73b6 -p********** _997d57f0302a73b6 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./sona3elkhairerp.orbscopeapps.com/private/backups/20231106_020001-sona3elkhairerp_orbscopeapps_com-database.sql.gz
+
+Backup Summary for sona3elkhairerp.orbscopeapps.com at 2023-11-06 02:00:07.921122
+Config  : ./sona3elkhairerp.orbscopeapps.com/private/backups/20231106_020001-sona3elkhairerp_orbscopeapps_com-site_config_backup.json 177.0B
+Database: ./sona3elkhairerp.orbscopeapps.com/private/backups/20231106_020001-sona3elkhairerp_orbscopeapps_com-database.sql.gz         1.4MiB
+Backup for Site sona3elkhairerp.orbscopeapps.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _997d57f0302a73b6 -p********** _997d57f0302a73b6 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./sona3elkhairerp.orbscopeapps.com/private/backups/20231106_080001-sona3elkhairerp_orbscopeapps_com-database.sql.gz
+
+Backup Summary for sona3elkhairerp.orbscopeapps.com at 2023-11-06 08:00:04.543187
+Config  : ./sona3elkhairerp.orbscopeapps.com/private/backups/20231106_080001-sona3elkhairerp_orbscopeapps_com-site_config_backup.json 177.0B
+Database: ./sona3elkhairerp.orbscopeapps.com/private/backups/20231106_080001-sona3elkhairerp_orbscopeapps_com-database.sql.gz         1.4MiB
+Backup for Site sona3elkhairerp.orbscopeapps.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _997d57f0302a73b6 -p********** _997d57f0302a73b6 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./sona3elkhairerp.orbscopeapps.com/private/backups/20231106_140002-sona3elkhairerp_orbscopeapps_com-database.sql.gz
+
+Backup Summary for sona3elkhairerp.orbscopeapps.com at 2023-11-06 14:00:04.935552
+Config  : ./sona3elkhairerp.orbscopeapps.com/private/backups/20231106_140002-sona3elkhairerp_orbscopeapps_com-site_config_backup.json 177.0B
+Database: ./sona3elkhairerp.orbscopeapps.com/private/backups/20231106_140002-sona3elkhairerp_orbscopeapps_com-database.sql.gz         1.4MiB
+Backup for Site sona3elkhairerp.orbscopeapps.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _997d57f0302a73b6 -p********** _997d57f0302a73b6 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./sona3elkhairerp.orbscopeapps.com/private/backups/20231106_200002-sona3elkhairerp_orbscopeapps_com-database.sql.gz
+
+Backup Summary for sona3elkhairerp.orbscopeapps.com at 2023-11-06 20:00:04.893480
+Config  : ./sona3elkhairerp.orbscopeapps.com/private/backups/20231106_200002-sona3elkhairerp_orbscopeapps_com-site_config_backup.json 177.0B
+Database: ./sona3elkhairerp.orbscopeapps.com/private/backups/20231106_200002-sona3elkhairerp_orbscopeapps_com-database.sql.gz         1.4MiB
+Backup for Site sona3elkhairerp.orbscopeapps.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _997d57f0302a73b6 -p********** _997d57f0302a73b6 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./sona3elkhairerp.orbscopeapps.com/private/backups/20231107_020002-sona3elkhairerp_orbscopeapps_com-database.sql.gz
+
+Backup Summary for sona3elkhairerp.orbscopeapps.com at 2023-11-07 02:00:07.629343
+Config  : ./sona3elkhairerp.orbscopeapps.com/private/backups/20231107_020002-sona3elkhairerp_orbscopeapps_com-site_config_backup.json 177.0B
+Database: ./sona3elkhairerp.orbscopeapps.com/private/backups/20231107_020002-sona3elkhairerp_orbscopeapps_com-database.sql.gz         1.4MiB
+Backup for Site sona3elkhairerp.orbscopeapps.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _997d57f0302a73b6 -p********** _997d57f0302a73b6 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./sona3elkhairerp.orbscopeapps.com/private/backups/20231107_080002-sona3elkhairerp_orbscopeapps_com-database.sql.gz
+
+Backup Summary for sona3elkhairerp.orbscopeapps.com at 2023-11-07 08:00:04.818954
+Config  : ./sona3elkhairerp.orbscopeapps.com/private/backups/20231107_080002-sona3elkhairerp_orbscopeapps_com-site_config_backup.json 177.0B
+Database: ./sona3elkhairerp.orbscopeapps.com/private/backups/20231107_080002-sona3elkhairerp_orbscopeapps_com-database.sql.gz         1.4MiB
+Backup for Site sona3elkhairerp.orbscopeapps.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _997d57f0302a73b6 -p********** _997d57f0302a73b6 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./sona3elkhairerp.orbscopeapps.com/private/backups/20231107_140002-sona3elkhairerp_orbscopeapps_com-database.sql.gz
+
+Backup Summary for sona3elkhairerp.orbscopeapps.com at 2023-11-07 14:00:06.054571
+Config  : ./sona3elkhairerp.orbscopeapps.com/private/backups/20231107_140002-sona3elkhairerp_orbscopeapps_com-site_config_backup.json 177.0B
+Database: ./sona3elkhairerp.orbscopeapps.com/private/backups/20231107_140002-sona3elkhairerp_orbscopeapps_com-database.sql.gz         1.4MiB
+Backup for Site sona3elkhairerp.orbscopeapps.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _997d57f0302a73b6 -p********** _997d57f0302a73b6 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./sona3elkhairerp.orbscopeapps.com/private/backups/20231107_200002-sona3elkhairerp_orbscopeapps_com-database.sql.gz
+
+Backup Summary for sona3elkhairerp.orbscopeapps.com at 2023-11-07 20:00:04.951376
+Config  : ./sona3elkhairerp.orbscopeapps.com/private/backups/20231107_200002-sona3elkhairerp_orbscopeapps_com-site_config_backup.json 177.0B
+Database: ./sona3elkhairerp.orbscopeapps.com/private/backups/20231107_200002-sona3elkhairerp_orbscopeapps_com-database.sql.gz         1.4MiB
+Backup for Site sona3elkhairerp.orbscopeapps.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _997d57f0302a73b6 -p********** _997d57f0302a73b6 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./sona3elkhairerp.orbscopeapps.com/private/backups/20231108_020002-sona3elkhairerp_orbscopeapps_com-database.sql.gz
+
+Backup Summary for sona3elkhairerp.orbscopeapps.com at 2023-11-08 02:00:07.010630
+Config  : ./sona3elkhairerp.orbscopeapps.com/private/backups/20231108_020002-sona3elkhairerp_orbscopeapps_com-site_config_backup.json 177.0B
+Database: ./sona3elkhairerp.orbscopeapps.com/private/backups/20231108_020002-sona3elkhairerp_orbscopeapps_com-database.sql.gz         1.4MiB
+Backup for Site sona3elkhairerp.orbscopeapps.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _997d57f0302a73b6 -p********** _997d57f0302a73b6 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./sona3elkhairerp.orbscopeapps.com/private/backups/20231108_080002-sona3elkhairerp_orbscopeapps_com-database.sql.gz
+
+Backup Summary for sona3elkhairerp.orbscopeapps.com at 2023-11-08 08:00:04.182386
+Config  : ./sona3elkhairerp.orbscopeapps.com/private/backups/20231108_080002-sona3elkhairerp_orbscopeapps_com-site_config_backup.json 177.0B
+Database: ./sona3elkhairerp.orbscopeapps.com/private/backups/20231108_080002-sona3elkhairerp_orbscopeapps_com-database.sql.gz         1.5MiB
+Backup for Site sona3elkhairerp.orbscopeapps.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _997d57f0302a73b6 -p********** _997d57f0302a73b6 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./sona3elkhairerp.orbscopeapps.com/private/backups/20231108_140001-sona3elkhairerp_orbscopeapps_com-database.sql.gz
+
+Backup Summary for sona3elkhairerp.orbscopeapps.com at 2023-11-08 14:00:04.662191
+Config  : ./sona3elkhairerp.orbscopeapps.com/private/backups/20231108_140001-sona3elkhairerp_orbscopeapps_com-site_config_backup.json 177.0B
+Database: ./sona3elkhairerp.orbscopeapps.com/private/backups/20231108_140001-sona3elkhairerp_orbscopeapps_com-database.sql.gz         1.5MiB
+Backup for Site sona3elkhairerp.orbscopeapps.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _997d57f0302a73b6 -p********** _997d57f0302a73b6 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./sona3elkhairerp.orbscopeapps.com/private/backups/20231108_200001-sona3elkhairerp_orbscopeapps_com-database.sql.gz
+
+Backup Summary for sona3elkhairerp.orbscopeapps.com at 2023-11-08 20:00:04.313660
+Config  : ./sona3elkhairerp.orbscopeapps.com/private/backups/20231108_200001-sona3elkhairerp_orbscopeapps_com-site_config_backup.json 177.0B
+Database: ./sona3elkhairerp.orbscopeapps.com/private/backups/20231108_200001-sona3elkhairerp_orbscopeapps_com-database.sql.gz         1.5MiB
+Backup for Site sona3elkhairerp.orbscopeapps.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _997d57f0302a73b6 -p********** _997d57f0302a73b6 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./sona3elkhairerp.orbscopeapps.com/private/backups/20231109_020002-sona3elkhairerp_orbscopeapps_com-database.sql.gz
+
+Backup Summary for sona3elkhairerp.orbscopeapps.com at 2023-11-09 02:00:06.271336
+Config  : ./sona3elkhairerp.orbscopeapps.com/private/backups/20231109_020002-sona3elkhairerp_orbscopeapps_com-site_config_backup.json 177.0B
+Database: ./sona3elkhairerp.orbscopeapps.com/private/backups/20231109_020002-sona3elkhairerp_orbscopeapps_com-database.sql.gz         1.5MiB
+Backup for Site sona3elkhairerp.orbscopeapps.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _997d57f0302a73b6 -p********** _997d57f0302a73b6 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./sona3elkhairerp.orbscopeapps.com/private/backups/20231109_080002-sona3elkhairerp_orbscopeapps_com-database.sql.gz
+
+Backup Summary for sona3elkhairerp.orbscopeapps.com at 2023-11-09 08:00:04.778199
+Config  : ./sona3elkhairerp.orbscopeapps.com/private/backups/20231109_080002-sona3elkhairerp_orbscopeapps_com-site_config_backup.json 177.0B
+Database: ./sona3elkhairerp.orbscopeapps.com/private/backups/20231109_080002-sona3elkhairerp_orbscopeapps_com-database.sql.gz         1.5MiB
+Backup for Site sona3elkhairerp.orbscopeapps.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _997d57f0302a73b6 -p********** _997d57f0302a73b6 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./sona3elkhairerp.orbscopeapps.com/private/backups/20231109_140002-sona3elkhairerp_orbscopeapps_com-database.sql.gz
+
+Backup Summary for sona3elkhairerp.orbscopeapps.com at 2023-11-09 14:00:05.531439
+Config  : ./sona3elkhairerp.orbscopeapps.com/private/backups/20231109_140002-sona3elkhairerp_orbscopeapps_com-site_config_backup.json 177.0B
+Database: ./sona3elkhairerp.orbscopeapps.com/private/backups/20231109_140002-sona3elkhairerp_orbscopeapps_com-database.sql.gz         1.5MiB
+Backup for Site sona3elkhairerp.orbscopeapps.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _997d57f0302a73b6 -p********** _997d57f0302a73b6 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./sona3elkhairerp.orbscopeapps.com/private/backups/20231109_200003-sona3elkhairerp_orbscopeapps_com-database.sql.gz
+
+Backup Summary for sona3elkhairerp.orbscopeapps.com at 2023-11-09 20:00:05.699851
+Config  : ./sona3elkhairerp.orbscopeapps.com/private/backups/20231109_200003-sona3elkhairerp_orbscopeapps_com-site_config_backup.json 177.0B
+Database: ./sona3elkhairerp.orbscopeapps.com/private/backups/20231109_200003-sona3elkhairerp_orbscopeapps_com-database.sql.gz         1.5MiB
+Backup for Site sona3elkhairerp.orbscopeapps.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _997d57f0302a73b6 -p********** _997d57f0302a73b6 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./sona3elkhairerp.orbscopeapps.com/private/backups/20231110_020002-sona3elkhairerp_orbscopeapps_com-database.sql.gz
+
+Backup Summary for sona3elkhairerp.orbscopeapps.com at 2023-11-10 02:00:06.489375
+Config  : ./sona3elkhairerp.orbscopeapps.com/private/backups/20231110_020002-sona3elkhairerp_orbscopeapps_com-site_config_backup.json 177.0B
+Database: ./sona3elkhairerp.orbscopeapps.com/private/backups/20231110_020002-sona3elkhairerp_orbscopeapps_com-database.sql.gz         1.5MiB
+Backup for Site sona3elkhairerp.orbscopeapps.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _997d57f0302a73b6 -p********** _997d57f0302a73b6 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./sona3elkhairerp.orbscopeapps.com/private/backups/20231110_080003-sona3elkhairerp_orbscopeapps_com-database.sql.gz
+
+Backup Summary for sona3elkhairerp.orbscopeapps.com at 2023-11-10 08:00:05.584667
+Config  : ./sona3elkhairerp.orbscopeapps.com/private/backups/20231110_080003-sona3elkhairerp_orbscopeapps_com-site_config_backup.json 177.0B
+Database: ./sona3elkhairerp.orbscopeapps.com/private/backups/20231110_080003-sona3elkhairerp_orbscopeapps_com-database.sql.gz         1.5MiB
+Backup for Site sona3elkhairerp.orbscopeapps.com has been successfully completed

@@ -1,0 +1,496 @@
+2023-10-30 11:06:15,418 ERROR frappe Could not take error snapshot: characters_written
+Site: sona3elkhairerp.orbscopeapps.com
+Form Dict: {'doctype': 'Material Request', 'with_parent': '1', 'cached_timestamp': '2023-09-15 12:07:24.789471', 'cmd': 'frappe.desk.form.load.getdoctype'}
+Traceback (most recent call last):
+  File "/home/s3/frappe-bench/apps/frappe/frappe/utils/caching.py", line 55, in wrapper
+    return frappe.local.request_cache[func][args_key]
+KeyError: -4369119807207505317
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/s3/frappe-bench/apps/frappe/frappe/__init__.py", line 1480, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/home/s3/frappe-bench/apps/frappe/frappe/__init__.py", line 1342, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'hrms'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/s3/frappe-bench/apps/frappe/frappe/app.py", line 95, in application
+    response = frappe.api.handle()
+  File "/home/s3/frappe-bench/apps/frappe/frappe/api.py", line 54, in handle
+    return frappe.handler.handle()
+  File "/home/s3/frappe-bench/apps/frappe/frappe/handler.py", line 47, in handle
+    data = execute_cmd(cmd)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/handler.py", line 85, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/__init__.py", line 1622, in call
+    return fn(*args, **newargs)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/desk/form/load.py", line 72, in getdoctype
+    docs = get_meta_bundle(doctype)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/desk/form/load.py", line 83, in get_meta_bundle
+    bundle = [frappe.desk.form.meta.get_meta(doctype)]
+  File "/home/s3/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 41, in get_meta
+    meta = FormMeta(doctype)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 55, in __init__
+    self.load_assets()
+  File "/home/s3/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 65, in load_assets
+    self.add_code()
+  File "/home/s3/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 116, in add_code
+    self.add_code_via_hook("doctype_js", "__js")
+  File "/home/s3/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 141, in add_code_via_hook
+    for path in get_code_files_via_hooks(hook, self.name):
+  File "/home/s3/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 295, in get_code_files_via_hooks
+    code_hook = frappe.get_hooks(hook, default={}, app_name=app_name)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/__init__.py", line 1508, in get_hooks
+    hooks = _dict(_load_app_hooks(app_name))
+  File "/home/s3/frappe-bench/apps/frappe/frappe/utils/caching.py", line 57, in wrapper
+    return_val = func(*args, **kwargs)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/__init__.py", line 1486, in _load_app_hooks
+    print(f'Could not find app "{app}": \n{e}')
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/s3/frappe-bench/apps/frappe/frappe/utils/error.py", line 60, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/utils/error.py", line 155, in get_snapshot
+    value = pydoc.text.repr(getattr(evalue, name))
+AttributeError: characters_written
+2023-10-30 11:06:35,268 ERROR frappe Could not take error snapshot: characters_written
+Site: sona3elkhairerp.orbscopeapps.com
+Form Dict: {'doctype': 'Material Request', 'with_parent': '1', 'cached_timestamp': '2023-09-15 12:07:24.789471', 'cmd': 'frappe.desk.form.load.getdoctype'}
+Traceback (most recent call last):
+  File "/home/s3/frappe-bench/apps/frappe/frappe/utils/caching.py", line 55, in wrapper
+    return frappe.local.request_cache[func][args_key]
+KeyError: -4369119807207505317
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/s3/frappe-bench/apps/frappe/frappe/__init__.py", line 1480, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/home/s3/frappe-bench/apps/frappe/frappe/__init__.py", line 1342, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'hrms'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/s3/frappe-bench/apps/frappe/frappe/app.py", line 95, in application
+    response = frappe.api.handle()
+  File "/home/s3/frappe-bench/apps/frappe/frappe/api.py", line 54, in handle
+    return frappe.handler.handle()
+  File "/home/s3/frappe-bench/apps/frappe/frappe/handler.py", line 47, in handle
+    data = execute_cmd(cmd)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/handler.py", line 85, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/__init__.py", line 1622, in call
+    return fn(*args, **newargs)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/desk/form/load.py", line 72, in getdoctype
+    docs = get_meta_bundle(doctype)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/desk/form/load.py", line 83, in get_meta_bundle
+    bundle = [frappe.desk.form.meta.get_meta(doctype)]
+  File "/home/s3/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 41, in get_meta
+    meta = FormMeta(doctype)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 55, in __init__
+    self.load_assets()
+  File "/home/s3/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 65, in load_assets
+    self.add_code()
+  File "/home/s3/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 116, in add_code
+    self.add_code_via_hook("doctype_js", "__js")
+  File "/home/s3/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 141, in add_code_via_hook
+    for path in get_code_files_via_hooks(hook, self.name):
+  File "/home/s3/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 295, in get_code_files_via_hooks
+    code_hook = frappe.get_hooks(hook, default={}, app_name=app_name)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/__init__.py", line 1508, in get_hooks
+    hooks = _dict(_load_app_hooks(app_name))
+  File "/home/s3/frappe-bench/apps/frappe/frappe/utils/caching.py", line 57, in wrapper
+    return_val = func(*args, **kwargs)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/__init__.py", line 1486, in _load_app_hooks
+    print(f'Could not find app "{app}": \n{e}')
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/s3/frappe-bench/apps/frappe/frappe/utils/error.py", line 60, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/utils/error.py", line 155, in get_snapshot
+    value = pydoc.text.repr(getattr(evalue, name))
+AttributeError: characters_written
+2023-10-30 11:07:02,065 ERROR frappe Could not take error snapshot: characters_written
+Site: sona3elkhairerp.orbscopeapps.com
+Form Dict: {'doctype': 'Material Request', 'with_parent': '1', 'cached_timestamp': '2023-09-15 12:07:24.789471', 'cmd': 'frappe.desk.form.load.getdoctype'}
+Traceback (most recent call last):
+  File "/home/s3/frappe-bench/apps/frappe/frappe/utils/caching.py", line 55, in wrapper
+    return frappe.local.request_cache[func][args_key]
+KeyError: -4369119807207505317
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/s3/frappe-bench/apps/frappe/frappe/__init__.py", line 1480, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/home/s3/frappe-bench/apps/frappe/frappe/__init__.py", line 1342, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'hrms'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/s3/frappe-bench/apps/frappe/frappe/app.py", line 95, in application
+    response = frappe.api.handle()
+  File "/home/s3/frappe-bench/apps/frappe/frappe/api.py", line 54, in handle
+    return frappe.handler.handle()
+  File "/home/s3/frappe-bench/apps/frappe/frappe/handler.py", line 47, in handle
+    data = execute_cmd(cmd)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/handler.py", line 85, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/__init__.py", line 1622, in call
+    return fn(*args, **newargs)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/desk/form/load.py", line 72, in getdoctype
+    docs = get_meta_bundle(doctype)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/desk/form/load.py", line 83, in get_meta_bundle
+    bundle = [frappe.desk.form.meta.get_meta(doctype)]
+  File "/home/s3/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 41, in get_meta
+    meta = FormMeta(doctype)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 55, in __init__
+    self.load_assets()
+  File "/home/s3/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 65, in load_assets
+    self.add_code()
+  File "/home/s3/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 116, in add_code
+    self.add_code_via_hook("doctype_js", "__js")
+  File "/home/s3/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 141, in add_code_via_hook
+    for path in get_code_files_via_hooks(hook, self.name):
+  File "/home/s3/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 295, in get_code_files_via_hooks
+    code_hook = frappe.get_hooks(hook, default={}, app_name=app_name)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/__init__.py", line 1508, in get_hooks
+    hooks = _dict(_load_app_hooks(app_name))
+  File "/home/s3/frappe-bench/apps/frappe/frappe/utils/caching.py", line 57, in wrapper
+    return_val = func(*args, **kwargs)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/__init__.py", line 1486, in _load_app_hooks
+    print(f'Could not find app "{app}": \n{e}')
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/s3/frappe-bench/apps/frappe/frappe/utils/error.py", line 60, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/utils/error.py", line 155, in get_snapshot
+    value = pydoc.text.repr(getattr(evalue, name))
+AttributeError: characters_written
+2023-10-30 11:07:17,058 ERROR frappe New Exception collected with id: 2023-10-30 11:07:17.031120-127.0.0.1-6a2
+Site: sona3elkhairerp.orbscopeapps.com
+Form Dict: {}
+2023-10-30 11:07:36,432 ERROR frappe New Exception collected with id: 2023-10-30 11:07:36.420764-127.0.0.1-9d1
+Site: sona3elkhairerp.orbscopeapps.com
+Form Dict: {}
+2023-10-30 11:07:46,918 ERROR frappe New Exception collected with id: 2023-10-30 11:07:46.905118-127.0.0.1-77d
+Site: sona3elkhairerp.orbscopeapps.com
+Form Dict: {}
+2023-10-30 11:08:12,456 ERROR frappe Could not take error snapshot: characters_written
+Site: sona3elkhairerp.orbscopeapps.com
+Form Dict: {}
+Traceback (most recent call last):
+  File "/home/s3/frappe-bench/apps/frappe/frappe/utils/caching.py", line 55, in wrapper
+    return frappe.local.request_cache[func][args_key]
+KeyError: 5740354900026072187
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/s3/frappe-bench/apps/frappe/frappe/__init__.py", line 1480, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/home/s3/frappe-bench/apps/frappe/frappe/__init__.py", line 1342, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'hrms'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/s3/frappe-bench/apps/frappe/frappe/app.py", line 84, in application
+    init_request(request)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/app.py", line 172, in init_request
+    frappe.local.http_request = frappe.auth.HTTPRequest()
+  File "/home/s3/frappe-bench/apps/frappe/frappe/auth.py", line 35, in __init__
+    self.set_session()
+  File "/home/s3/frappe-bench/apps/frappe/frappe/auth.py", line 71, in set_session
+    frappe.local.login_manager = LoginManager()
+  File "/home/s3/frappe-bench/apps/frappe/frappe/auth.py", line 120, in __init__
+    self.make_session(resume=True)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/auth.py", line 208, in make_session
+    frappe.local.session_obj = Session(
+  File "/home/s3/frappe-bench/apps/frappe/frappe/sessions.py", line 230, in __init__
+    self.resume()
+  File "/home/s3/frappe-bench/apps/frappe/frappe/sessions.py", line 308, in resume
+    validate_ip_address(self.user)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/auth.py", line 422, in validate_ip_address
+    frappe.get_cached_value("User", user, user_fields, as_dict=True)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/__init__.py", line 1165, in get_cached_value
+    doc = get_cached_doc(doctype, name)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/__init__.py", line 1106, in get_cached_doc
+    doc = get_doc(*args, **kwargs)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/__init__.py", line 1199, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/model/document.py", line 73, in get_doc
+    controller = get_controller(doctype)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/model/base_document.py", line 89, in get_controller
+    return _get_controller()
+  File "/home/s3/frappe-bench/apps/frappe/frappe/model/base_document.py", line 67, in _get_controller
+    class_overrides = frappe.get_hooks("override_doctype_class")
+  File "/home/s3/frappe-bench/apps/frappe/frappe/__init__.py", line 1513, in get_hooks
+    hooks = _dict(cache().get_value("app_hooks", _load_app_hooks))
+  File "/home/s3/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 81, in get_value
+    val = generator()
+  File "/home/s3/frappe-bench/apps/frappe/frappe/utils/caching.py", line 57, in wrapper
+    return_val = func(*args, **kwargs)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/__init__.py", line 1486, in _load_app_hooks
+    print(f'Could not find app "{app}": \n{e}')
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/s3/frappe-bench/apps/frappe/frappe/utils/error.py", line 60, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/utils/error.py", line 155, in get_snapshot
+    value = pydoc.text.repr(getattr(evalue, name))
+AttributeError: characters_written
+2023-10-30 11:08:12,458 ERROR frappe Failed to run after request hook
+Site: sona3elkhairerp.orbscopeapps.com
+Form Dict: {}
+Traceback (most recent call last):
+  File "/home/s3/frappe-bench/apps/frappe/frappe/utils/caching.py", line 55, in wrapper
+    return frappe.local.request_cache[func][args_key]
+KeyError: 5740354900026072187
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/s3/frappe-bench/apps/frappe/frappe/__init__.py", line 1480, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/home/s3/frappe-bench/apps/frappe/frappe/__init__.py", line 1342, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'hrms'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/s3/frappe-bench/apps/frappe/frappe/app.py", line 84, in application
+    init_request(request)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/app.py", line 172, in init_request
+    frappe.local.http_request = frappe.auth.HTTPRequest()
+  File "/home/s3/frappe-bench/apps/frappe/frappe/auth.py", line 35, in __init__
+    self.set_session()
+  File "/home/s3/frappe-bench/apps/frappe/frappe/auth.py", line 71, in set_session
+    frappe.local.login_manager = LoginManager()
+  File "/home/s3/frappe-bench/apps/frappe/frappe/auth.py", line 120, in __init__
+    self.make_session(resume=True)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/auth.py", line 208, in make_session
+    frappe.local.session_obj = Session(
+  File "/home/s3/frappe-bench/apps/frappe/frappe/sessions.py", line 230, in __init__
+    self.resume()
+  File "/home/s3/frappe-bench/apps/frappe/frappe/sessions.py", line 308, in resume
+    validate_ip_address(self.user)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/auth.py", line 422, in validate_ip_address
+    frappe.get_cached_value("User", user, user_fields, as_dict=True)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/__init__.py", line 1165, in get_cached_value
+    doc = get_cached_doc(doctype, name)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/__init__.py", line 1106, in get_cached_doc
+    doc = get_doc(*args, **kwargs)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/__init__.py", line 1199, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/model/document.py", line 73, in get_doc
+    controller = get_controller(doctype)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/model/base_document.py", line 89, in get_controller
+    return _get_controller()
+  File "/home/s3/frappe-bench/apps/frappe/frappe/model/base_document.py", line 67, in _get_controller
+    class_overrides = frappe.get_hooks("override_doctype_class")
+  File "/home/s3/frappe-bench/apps/frappe/frappe/__init__.py", line 1513, in get_hooks
+    hooks = _dict(cache().get_value("app_hooks", _load_app_hooks))
+  File "/home/s3/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 81, in get_value
+    val = generator()
+  File "/home/s3/frappe-bench/apps/frappe/frappe/utils/caching.py", line 57, in wrapper
+    return_val = func(*args, **kwargs)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/__init__.py", line 1486, in _load_app_hooks
+    print(f'Could not find app "{app}": \n{e}')
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/s3/frappe-bench/apps/frappe/frappe/utils/caching.py", line 55, in wrapper
+    return frappe.local.request_cache[func][args_key]
+KeyError: 5740354900026072187
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/s3/frappe-bench/apps/frappe/frappe/__init__.py", line 1480, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/home/s3/frappe-bench/apps/frappe/frappe/__init__.py", line 1342, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'hrms'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/s3/frappe-bench/apps/frappe/frappe/website/serve.py", line 17, in get_response
+    endpoint, renderer_instance = path_resolver.resolve()
+  File "/home/s3/frappe-bench/apps/frappe/frappe/website/path_resolver.py", line 36, in resolve
+    resolve_redirect(self.path, request.query_string)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/website/path_resolver.py", line 107, in resolve_redirect
+    redirects = frappe.get_hooks("website_redirects")
+  File "/home/s3/frappe-bench/apps/frappe/frappe/__init__.py", line 1513, in get_hooks
+    hooks = _dict(cache().get_value("app_hooks", _load_app_hooks))
+  File "/home/s3/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 81, in get_value
+    val = generator()
+  File "/home/s3/frappe-bench/apps/frappe/frappe/utils/caching.py", line 57, in wrapper
+    return_val = func(*args, **kwargs)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/__init__.py", line 1486, in _load_app_hooks
+    print(f'Could not find app "{app}": \n{e}')
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/s3/frappe-bench/apps/frappe/frappe/app.py", line 113, in application
+    response = handle_exception(e)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/app.py", line 367, in handle_exception
+    response = get_response("message", http_status_code=http_status_code)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/website/serve.py", line 26, in get_response
+    response = ErrorPage(exception=e).render()
+  File "/home/s3/frappe-bench/apps/frappe/frappe/website/page_renderers/error_page.py", line 7, in __init__
+    super().__init__(path=path, http_status_code=http_status_code)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/website/page_renderers/template_page.py", line 45, in __init__
+    self.set_template_path()
+  File "/home/s3/frappe-bench/apps/frappe/frappe/website/page_renderers/template_page.py", line 54, in set_template_path
+    app_path = frappe.get_app_path(app)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/__init__.py", line 1371, in get_app_path
+    return get_pymodule_path(app_name, *joins)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/__init__.py", line 1388, in get_pymodule_path
+    return os.path.join(os.path.dirname(get_module(scrub(modulename)).__file__ or ""), *joins)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/__init__.py", line 1342, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'hrms'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/s3/frappe-bench/apps/frappe/frappe/utils/caching.py", line 55, in wrapper
+    return frappe.local.request_cache[func][args_key]
+KeyError: 5740354900026072187
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/s3/frappe-bench/apps/frappe/frappe/__init__.py", line 1480, in _load_app_hooks
+    app_hooks = get_module(f"{app}.hooks")
+  File "/home/s3/frappe-bench/apps/frappe/frappe/__init__.py", line 1342, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'hrms'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/s3/frappe-bench/apps/frappe/frappe/app.py", line 127, in application
+    run_after_request_hooks(request, response)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/app.py", line 143, in run_after_request_hooks
+    for after_request_task in frappe.get_hooks("after_request"):
+  File "/home/s3/frappe-bench/apps/frappe/frappe/__init__.py", line 1513, in get_hooks
+    hooks = _dict(cache().get_value("app_hooks", _load_app_hooks))
+  File "/home/s3/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 81, in get_value
+    val = generator()
+  File "/home/s3/frappe-bench/apps/frappe/frappe/utils/caching.py", line 57, in wrapper
+    return_val = func(*args, **kwargs)
+  File "/home/s3/frappe-bench/apps/frappe/frappe/__init__.py", line 1486, in _load_app_hooks
+    print(f'Could not find app "{app}": \n{e}')
+BrokenPipeError: [Errno 32] Broken pipe
+2023-10-30 13:12:29,910 ERROR frappe New Exception collected with id: 2023-10-30 13:12:29.905009-41.232.208.135-c1c
+Site: sona3elkhairerp.orbscopeapps.com
+Form Dict: {'company': 'Sona3elkhair', 'cmd': 'hrms.hr.utils.get_leave_period'}
+2023-10-30 15:20:56,174 ERROR frappe New Exception collected with id: 2023-10-30 15:20:56.171423-197.36.199.213-5a6
+Site: sona3elkhairerp.orbscopeapps.com
+Form Dict: {'company': 'مؤسسة صناع الخير', 'cmd': 'hrms.hr.utils.get_leave_period'}
+2023-10-30 15:44:40,770 ERROR frappe New Exception collected with id: 2023-10-30 15:44:40.768520-41.232.208.135-f80
+Site: sona3elkhairerp.orbscopeapps.com
+Form Dict: {'company': 'مؤسسة صناع الخير', 'cmd': 'hrms.hr.utils.get_leave_period'}
+2023-10-30 15:45:28,647 ERROR frappe New Exception collected with id: 2023-10-30 15:45:28.646207-41.232.208.135-8ef
+Site: sona3elkhairerp.orbscopeapps.com
+Form Dict: {'company': 'مؤسسة صناع الخير', 'cmd': 'hrms.hr.utils.get_leave_period'}
+2023-10-30 15:47:43,080 ERROR frappe New Exception collected with id: 2023-10-30 15:47:43.078851-41.232.208.135-c43
+Site: sona3elkhairerp.orbscopeapps.com
+Form Dict: {'company': 'مؤسسة صناع الخير', 'cmd': 'hrms.hr.utils.get_leave_period'}

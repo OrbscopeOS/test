@@ -1,0 +1,9 @@
+{
+ "db_name": "_997d57f0302a73b6",
+ "db_password": "luLNtGV8Xa05F8qI",
+ "db_type": "mariadb",
+ "user_type_doctype_limit": {
+  "employee_self_service": 30
+ },
+ "nginx_port": 88
+}

@@ -1,0 +1,287 @@
+2023-10-29 12:43:03,681 DEBUG cd /home/s3/frappe-bench && /usr/bin/virtualenv --quiet env -p python3
+2023-10-29 12:43:04,084 DEBUG cd /home/s3/frappe-bench && /home/s3/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2023-10-29 12:43:07,305 LOG Getting frappe
+2023-10-29 12:43:07,305 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git --branch version-14 --depth 1 --origin upstream
+2023-10-29 12:43:10,240 LOG Installing frappe
+2023-10-29 12:43:10,240 DEBUG cd /home/s3/frappe-bench && /home/s3/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/s3/frappe-bench/apps/frappe 
+2023-10-29 12:44:00,323 DEBUG cd /home/s3/frappe-bench/apps/frappe && yarn install
+2023-10-29 12:44:18,716 DEBUG cd frappe-bench && bench build
+2023-10-29 12:44:18,886 INFO /usr/local/bin/bench build
+2023-10-29 12:44:36,539 LOG setting up backups
+2023-10-29 12:44:36,549 LOG backups were set up
+2023-10-29 12:44:36,549 INFO Bench frappe-bench initialized
+2023-10-29 12:44:57,303 INFO /usr/local/bin/bench new-site sona3elkhairerp.orbscopeapps.com
+2023-10-29 12:45:46,587 INFO /usr/local/bin/bench use sona3elkhairerp.orbscopeapps.com
+2023-10-29 12:45:54,008 INFO /usr/local/bin/bench get-app payments
+2023-10-29 12:45:54,436 LOG Getting payments
+2023-10-29 12:45:54,437 DEBUG cd ./apps && git clone https://github.com/frappe/payments.git  --depth 1 --origin upstream
+2023-10-29 12:45:54,939 LOG Installing payments
+2023-10-29 12:45:54,939 DEBUG cd /home/s3/frappe-bench && /home/s3/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/s3/frappe-bench/apps/payments 
+2023-10-29 12:45:59,714 DEBUG bench build --app payments
+2023-10-29 12:45:59,881 INFO /usr/local/bin/bench build --app payments
+2023-10-29 12:46:06,434 INFO /usr/local/bin/bench get-app erpnext --branch version-14
+2023-10-29 12:46:06,902 LOG Getting erpnext
+2023-10-29 12:46:06,902 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-14 --depth 1 --origin upstream
+2023-10-29 12:46:11,439 LOG Installing erpnext
+2023-10-29 12:46:11,439 DEBUG cd /home/s3/frappe-bench && /home/s3/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/s3/frappe-bench/apps/erpnext 
+2023-10-29 12:46:43,073 DEBUG cd /home/s3/frappe-bench/apps/erpnext && yarn install
+2023-10-29 12:46:44,119 DEBUG bench build --app erpnext
+2023-10-29 12:46:44,286 INFO /usr/local/bin/bench build --app erpnext
+2023-10-29 12:47:37,931 INFO /usr/local/bin/bench --site sona3elkhairerp.orbscopeapps.com install-app erpnext
+2023-10-29 12:52:11,506 INFO /usr/local/bin/bench get-app payments
+2023-10-29 12:54:01,352 INFO /usr/local/bin/bench get-app non_profit
+2023-10-29 12:54:01,836 LOG Getting non_profit
+2023-10-29 12:54:01,836 DEBUG cd ./apps && git clone https://github.com/frappe/non_profit.git  --depth 1 --origin upstream
+2023-10-29 12:54:02,323 LOG Installing non_profit
+2023-10-29 12:54:02,323 DEBUG cd /home/s3/frappe-bench && /home/s3/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/s3/frappe-bench/apps/non_profit 
+2023-10-29 12:54:04,086 DEBUG bench build --app non_profit
+2023-10-29 12:54:04,260 INFO /usr/local/bin/bench build --app non_profit
+2023-10-29 12:54:15,689 INFO /usr/local/bin/bench get-app hrms
+2023-10-29 12:54:16,135 LOG Getting hrms
+2023-10-29 12:54:16,135 DEBUG cd ./apps && git clone https://github.com/frappe/hrms.git  --depth 1 --origin upstream
+2023-10-29 12:54:17,570 LOG Installing hrms
+2023-10-29 12:54:17,571 DEBUG cd /home/s3/frappe-bench && /home/s3/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/s3/frappe-bench/apps/hrms 
+2023-10-29 12:54:20,275 DEBUG cd /home/s3/frappe-bench/apps/hrms && yarn install
+2023-10-29 12:54:21,361 DEBUG bench build --app hrms
+2023-10-29 12:54:21,528 INFO /usr/local/bin/bench build --app hrms
+2023-10-29 12:54:49,075 INFO /usr/local/bin/bench --site sona3elkhairerp.orbscopeapps.com install-app hrms
+2023-10-29 12:56:16,994 INFO /usr/local/bin/bench --site sona3elkhairerp.orbscopeapps.com install-app non_profit
+2023-10-29 12:56:27,626 INFO /usr/local/bin/bench --site sona3elkhairerp.orbscopeapps.com install-app non_profit
+2023-10-29 12:56:35,757 INFO /usr/local/bin/bench --site sona3elkhairerp.orbscopeapps.com install-app payments
+2023-10-29 12:58:22,953 INFO /usr/local/bin/bench start
+2023-10-29 12:58:23,583 INFO /usr/local/bin/bench worker --queue long
+2023-10-29 12:58:23,673 INFO /usr/local/bin/bench schedule
+2023-10-29 12:58:23,680 INFO /usr/local/bin/bench worker --queue short
+2023-10-29 12:58:23,681 INFO /usr/local/bin/bench watch
+2023-10-29 12:58:23,694 INFO /usr/local/bin/bench worker --queue default
+2023-10-29 12:58:23,709 INFO /usr/local/bin/bench serve --port 8000
+2023-10-29 12:59:56,680 INFO /usr/local/bin/bench set-nginx-port sona3elkhairerp.orbscopeapps.com 80
+2023-10-29 13:00:02,823 INFO /usr/local/bin/bench setup nginx
+2023-10-29 13:01:11,608 INFO /usr/local/bin/bench start
+2023-10-29 13:01:12,180 INFO /usr/local/bin/bench schedule
+2023-10-29 13:01:12,339 INFO /usr/local/bin/bench worker --queue short
+2023-10-29 13:01:12,344 INFO /usr/local/bin/bench watch
+2023-10-29 13:01:12,362 INFO /usr/local/bin/bench worker --queue long
+2023-10-29 13:01:12,389 INFO /usr/local/bin/bench serve --port 8000
+2023-10-29 13:01:12,425 INFO /usr/local/bin/bench worker --queue default
+2023-10-29 13:01:54,067 INFO /usr/local/bin/bench setup production s3
+2023-10-29 13:01:54,261 DEBUG sudo /usr/bin/python3 -m pip install ansible
+2023-10-29 13:02:20,763 DEBUG bench setup role fail2ban
+2023-10-29 13:02:20,938 INFO /usr/local/bin/bench setup role fail2ban
+2023-10-29 13:02:36,791 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2023-10-29 13:02:36,791 LOG Updated supervisord.conf: 'chown' changed from '' to 's3:s3'
+2023-10-29 13:03:09,616 LOG Updated supervisord.conf at '/etc/supervisor/supervisord.conf'
+2023-10-29 13:03:09,616 DEBUG sudo systemctl reload supervisor
+2023-10-29 13:03:11,403 DEBUG sudo /usr/sbin/nginx -t
+2023-10-29 13:03:11,422 DEBUG sudo systemctl reload nginx
+2023-10-29 13:03:14,345 INFO /usr/local/bin/bench start
+2023-10-29 13:03:14,912 INFO /usr/local/bin/bench watch
+2023-10-29 13:03:15,087 INFO /usr/local/bin/bench serve --port 8000
+2023-10-29 13:03:15,097 INFO /usr/local/bin/bench worker --queue default
+2023-10-29 13:03:15,099 INFO /usr/local/bin/bench worker --queue short
+2023-10-29 13:03:15,101 INFO /usr/local/bin/bench schedule
+2023-10-29 13:03:15,121 INFO /usr/local/bin/bench worker --queue long
+2023-10-29 13:04:08,022 INFO /usr/local/bin/bench set-nginx-port sona3elkhairerp.orbscopeapps.com 80
+2023-10-29 13:04:14,115 INFO /usr/local/bin/bench setup nginx
+2023-10-29 13:04:26,599 INFO /usr/local/bin/bench start
+2023-10-29 13:04:27,145 INFO /usr/local/bin/bench worker --queue default
+2023-10-29 13:04:27,307 INFO /usr/local/bin/bench worker --queue short
+2023-10-29 13:04:27,314 INFO /usr/local/bin/bench watch
+2023-10-29 13:04:27,316 INFO /usr/local/bin/bench schedule
+2023-10-29 13:04:27,320 INFO /usr/local/bin/bench serve --port 8000
+2023-10-29 13:04:27,329 INFO /usr/local/bin/bench worker --queue long
+2023-10-29 13:04:44,682 INFO /usr/local/bin/bench config dns_multitenant off
+2023-10-29 13:04:47,834 INFO /usr/local/bin/bench start
+2023-10-29 13:04:48,358 INFO /usr/local/bin/bench worker --queue short
+2023-10-29 13:04:48,517 INFO /usr/local/bin/bench watch
+2023-10-29 13:04:48,534 INFO /usr/local/bin/bench serve --port 8000
+2023-10-29 13:04:48,552 INFO /usr/local/bin/bench worker --queue default
+2023-10-29 13:04:48,558 INFO /usr/local/bin/bench worker --queue long
+2023-10-29 13:04:48,565 INFO /usr/local/bin/bench schedule
+2023-10-29 13:06:15,815 INFO /usr/local/bin/bench usesona3elkhairerp.orbscopeapps.com
+2023-10-29 13:06:16,008 WARNING /usr/local/bin/bench usesona3elkhairerp.orbscopeapps.com executed with exit code 2
+2023-10-29 13:06:20,483 INFO /usr/local/bin/bench use sona3elkhairerp.orbscopeapps.com
+2023-10-29 13:06:36,170 INFO /usr/local/bin/bench set-nginx-port sona3elkhairerp.orbscopeapps.com 80
+2023-10-29 13:06:42,380 INFO /usr/local/bin/bench setup nginx
+2023-10-29 13:06:53,707 INFO /usr/local/bin/bench start
+2023-10-29 13:06:54,245 INFO /usr/local/bin/bench worker --queue default
+2023-10-29 13:06:54,394 INFO /usr/local/bin/bench serve --port 8000
+2023-10-29 13:06:54,417 INFO /usr/local/bin/bench watch
+2023-10-29 13:06:54,433 INFO /usr/local/bin/bench worker --queue short
+2023-10-29 13:06:54,461 INFO /usr/local/bin/bench worker --queue long
+2023-10-29 13:06:54,505 INFO /usr/local/bin/bench schedule
+2023-10-29 13:14:01,343 INFO /usr/local/bin/bench start
+2023-10-29 13:14:01,935 INFO /usr/local/bin/bench worker --queue short
+2023-10-29 13:14:02,130 INFO /usr/local/bin/bench watch
+2023-10-29 13:14:02,159 INFO /usr/local/bin/bench serve --port 8000
+2023-10-29 13:14:02,159 INFO /usr/local/bin/bench worker --queue long
+2023-10-29 13:14:02,196 INFO /usr/local/bin/bench schedule
+2023-10-29 13:14:02,201 INFO /usr/local/bin/bench worker --queue default
+2023-10-29 13:15:05,135 INFO /usr/local/bin/bench start
+2023-10-29 13:15:05,701 INFO /usr/local/bin/bench schedule
+2023-10-29 13:15:05,848 INFO /usr/local/bin/bench worker --queue short
+2023-10-29 13:15:05,853 INFO /usr/local/bin/bench worker --queue default
+2023-10-29 13:15:05,861 INFO /usr/local/bin/bench worker --queue long
+2023-10-29 13:15:05,869 INFO /usr/local/bin/bench serve --port 8000
+2023-10-29 13:15:05,922 INFO /usr/local/bin/bench watch
+2023-10-29 13:15:24,852 INFO /usr/local/bin/bench start
+2023-10-29 13:15:25,462 INFO /usr/local/bin/bench schedule
+2023-10-29 13:15:25,463 INFO /usr/local/bin/bench worker --queue short
+2023-10-29 13:15:25,551 INFO /usr/local/bin/bench worker --queue default
+2023-10-29 13:15:25,573 INFO /usr/local/bin/bench serve --port 8000
+2023-10-29 13:15:25,594 INFO /usr/local/bin/bench worker --queue long
+2023-10-29 13:15:25,609 INFO /usr/local/bin/bench watch
+2023-10-29 18:00:01,622 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-30 00:00:02,595 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-30 06:00:01,266 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-30 10:55:33,705 INFO /usr/local/bin/bench get-app https://github.com/OrbscopeOS/hr.git
+2023-10-30 10:55:33,962 LOG Getting hr
+2023-10-30 10:55:33,962 DEBUG cd ./apps && git clone https://github.com/OrbscopeOS/hr.git  --depth 1 --origin upstream
+2023-10-30 10:57:45,586 WARNING cd ./apps && git clone https://github.com/OrbscopeOS/hr.git  --depth 1 --origin upstream executed with exit code 128
+2023-10-30 10:57:45,587 WARNING /usr/local/bin/bench get-app https://github.com/OrbscopeOS/hr.git executed with exit code 1
+2023-10-30 10:57:59,948 INFO /usr/local/bin/bench get-app https://github.com/OrbscopeOS/hr.git
+2023-10-30 10:58:00,240 LOG Getting hr
+2023-10-30 10:58:00,240 DEBUG cd ./apps && git clone https://github.com/OrbscopeOS/hr.git  --depth 1 --origin upstream
+2023-10-30 10:58:19,119 WARNING cd ./apps && git clone https://github.com/OrbscopeOS/hr.git  --depth 1 --origin upstream executed with exit code 128
+2023-10-30 10:58:19,120 WARNING /usr/local/bin/bench get-app https://github.com/OrbscopeOS/hr.git executed with exit code 1
+2023-10-30 11:04:55,398 INFO /usr/local/bin/bench get-app https://github.com/OrbscopeOS/hrms.git
+2023-10-30 11:05:31,426 INFO /usr/local/bin/bench get-app https://github.com/OrbscopeOS/hrms.git
+2023-10-30 11:05:31,694 LOG Getting hrms
+2023-10-30 11:05:31,695 DEBUG cd ./apps && git clone https://github.com/OrbscopeOS/hrms.git  --depth 1 --origin upstream
+2023-10-30 11:05:32,759 WARNING /usr/local/bin/bench get-app https://github.com/OrbscopeOS/hrms.git executed with exit code 1
+2023-10-30 11:06:10,051 INFO /usr/local/bin/bench get-app https://github.com/OrbscopeOS/hrms.git
+2023-10-30 11:06:10,303 LOG Getting hrms
+2023-10-30 11:06:10,303 DEBUG cd ./apps && git clone https://github.com/OrbscopeOS/hrms.git  --depth 1 --origin upstream
+2023-10-30 11:06:13,702 WARNING /usr/local/bin/bench get-app https://github.com/OrbscopeOS/hrms.git executed with exit code 1
+2023-10-30 11:07:10,653 INFO /usr/local/bin/bench --site sona3elkhairerp.orbscopeapps.com install-app hrms
+2023-10-30 11:09:28,363 INFO /usr/local/bin/bench --site sona3elkhairerp.orbscopeapps.com install-app hrms
+2023-10-30 11:13:10,658 INFO /usr/local/bin/bench --site sona3elkhairerp.orbscopeapps.com install-app hrms
+2023-10-30 11:15:07,445 INFO /usr/local/bin/bench get-app hrms
+2023-10-30 11:15:07,957 LOG Getting hrms
+2023-10-30 11:15:07,957 DEBUG cd ./apps && git clone https://github.com/frappe/hrms.git  --depth 1 --origin upstream
+2023-10-30 11:15:09,303 LOG Installing hrms
+2023-10-30 11:15:09,304 DEBUG cd /home/s3/frappe-bench && /home/s3/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/s3/frappe-bench/apps/hrms 
+2023-10-30 11:15:13,780 DEBUG cd /home/s3/frappe-bench/apps/hrms && yarn install
+2023-10-30 11:15:14,690 DEBUG bench build --app hrms
+2023-10-30 11:15:14,906 INFO /usr/local/bin/bench build --app hrms
+2023-10-30 11:15:21,250 DEBUG cd /home/s3/frappe-bench && supervisorctl restart frappe:
+2023-10-30 11:15:21,499 WARNING cd /home/s3/frappe-bench && supervisorctl restart frappe: executed with exit code 2
+2023-10-30 11:15:21,499 WARNING /usr/local/bin/bench get-app hrms executed with exit code 1
+2023-10-30 11:16:07,195 INFO /usr/local/bin/bench get-app hrms
+2023-10-30 11:16:07,648 LOG Getting hrms
+2023-10-30 11:16:07,648 DEBUG cd ./apps && git clone https://github.com/frappe/hrms.git  --depth 1 --origin upstream
+2023-10-30 11:16:10,572 LOG Installing hrms
+2023-10-30 11:16:10,573 DEBUG cd /home/s3/frappe-bench && /home/s3/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/s3/frappe-bench/apps/hrms 
+2023-10-30 11:16:13,887 DEBUG cd /home/s3/frappe-bench/apps/hrms && yarn install
+2023-10-30 11:16:14,554 DEBUG bench build --app hrms
+2023-10-30 11:16:14,724 INFO /usr/local/bin/bench build --app hrms
+2023-10-30 11:16:20,189 DEBUG cd /home/s3/frappe-bench && supervisorctl restart frappe:
+2023-10-30 11:16:20,431 WARNING cd /home/s3/frappe-bench && supervisorctl restart frappe: executed with exit code 2
+2023-10-30 11:16:20,432 WARNING /usr/local/bin/bench get-app hrms executed with exit code 1
+2023-10-30 11:32:16,049 INFO /usr/local/bin/bench get-app hrms
+2023-10-30 11:32:16,507 LOG Getting hrms
+2023-10-30 11:32:16,507 DEBUG cd ./apps && git clone https://github.com/frappe/hrms.git  --depth 1 --origin upstream
+2023-10-30 11:32:19,226 LOG Installing hrms
+2023-10-30 11:32:19,226 DEBUG cd /home/s3/frappe-bench && /home/s3/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/s3/frappe-bench/apps/hrms 
+2023-10-30 11:32:22,347 DEBUG cd /home/s3/frappe-bench/apps/hrms && yarn install
+2023-10-30 11:32:23,013 DEBUG bench build --app hrms
+2023-10-30 11:32:23,194 INFO /usr/local/bin/bench build --app hrms
+2023-10-30 11:32:28,481 DEBUG cd /home/s3/frappe-bench && supervisorctl restart frappe:
+2023-10-30 11:32:28,829 WARNING cd /home/s3/frappe-bench && supervisorctl restart frappe: executed with exit code 2
+2023-10-30 11:32:28,829 WARNING /usr/local/bin/bench get-app hrms executed with exit code 1
+2023-10-30 11:32:44,086 INFO /usr/local/bin/bench --site sona3elkhairerp.orbscopeapps.com install-app hrms
+2023-10-30 11:32:52,470 INFO /usr/local/bin/bench --site sona3elkhairerp.orbscopeapps.com reinstall-app hrms
+2023-10-30 11:32:52,685 WARNING /usr/local/bin/bench --site sona3elkhairerp.orbscopeapps.com reinstall-app hrms executed with exit code 2
+2023-10-30 11:33:06,065 INFO /usr/local/bin/bench start
+2023-10-30 11:33:06,828 INFO /usr/local/bin/bench worker --queue long
+2023-10-30 11:33:06,854 INFO /usr/local/bin/bench schedule
+2023-10-30 11:33:06,857 INFO /usr/local/bin/bench serve --port 8000
+2023-10-30 11:33:06,864 INFO /usr/local/bin/bench watch
+2023-10-30 11:33:06,902 INFO /usr/local/bin/bench worker --queue short
+2023-10-30 11:33:07,001 INFO /usr/local/bin/bench worker --queue default
+2023-10-30 12:00:01,756 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-30 18:00:02,133 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-31 00:00:02,411 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-31 06:00:01,919 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-31 11:54:24,105 INFO /usr/local/bin/bench set-nginx-port sona3elkhairerp.orbscopeapps.com 83
+2023-10-31 11:55:26,254 INFO /usr/local/bin/bench setup nginx
+2023-10-31 11:59:34,305 INFO /usr/local/bin/bench set-nginx-port sona3elkhairerp.orbscopeapps.com 88
+2023-10-31 11:59:38,236 INFO /usr/local/bin/bench setup nginx
+2023-10-31 12:00:01,369 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-31 18:00:01,417 INFO /usr/local/bin/bench --verbose --site all backup
+2023-11-01 00:00:01,574 INFO /usr/local/bin/bench --verbose --site all backup
+2023-11-01 06:00:01,696 INFO /usr/local/bin/bench --verbose --site all backup
+2023-11-01 12:00:01,289 INFO /usr/local/bin/bench --verbose --site all backup
+2023-11-01 18:00:02,127 INFO /usr/local/bin/bench --verbose --site all backup
+2023-11-02 00:00:01,795 INFO /usr/local/bin/bench --verbose --site all backup
+2023-11-02 06:00:01,332 INFO /usr/local/bin/bench --verbose --site all backup
+2023-11-02 09:52:24,563 INFO /usr/local/bin/bench start
+2023-11-02 09:52:25,141 INFO /usr/local/bin/bench worker --queue long
+2023-11-02 09:52:25,238 INFO /usr/local/bin/bench watch
+2023-11-02 09:52:25,291 INFO /usr/local/bin/bench worker --queue short
+2023-11-02 09:52:25,331 INFO /usr/local/bin/bench serve --port 8000
+2023-11-02 09:52:25,428 INFO /usr/local/bin/bench schedule
+2023-11-02 09:52:25,488 INFO /usr/local/bin/bench worker --queue default
+2023-11-02 09:53:00,255 INFO /usr/local/bin/bench start
+2023-11-02 09:53:00,819 INFO /usr/local/bin/bench schedule
+2023-11-02 09:53:01,013 INFO /usr/local/bin/bench watch
+2023-11-02 09:53:01,038 INFO /usr/local/bin/bench worker --queue default
+2023-11-02 09:53:01,039 INFO /usr/local/bin/bench worker --queue short
+2023-11-02 09:53:01,045 INFO /usr/local/bin/bench serve --port 8000
+2023-11-02 09:57:07,043 INFO /usr/local/bin/bench start
+2023-11-02 09:57:07,652 INFO /usr/local/bin/bench watch
+2023-11-02 09:57:07,707 INFO /usr/local/bin/bench worker --queue default
+2023-11-02 12:00:01,658 INFO /usr/local/bin/bench --verbose --site all backup
+2023-11-02 18:00:01,735 INFO /usr/local/bin/bench --verbose --site all backup
+2023-11-03 00:00:01,865 INFO /usr/local/bin/bench --verbose --site all backup
+2023-11-03 06:00:02,254 INFO /usr/local/bin/bench --verbose --site all backup
+2023-11-03 12:00:02,321 INFO /usr/local/bin/bench --verbose --site all backup
+2023-11-03 18:00:01,258 INFO /usr/local/bin/bench --verbose --site all backup
+2023-11-04 00:00:01,959 INFO /usr/local/bin/bench --verbose --site all backup
+2023-11-04 06:00:02,263 INFO /usr/local/bin/bench --verbose --site all backup
+2023-11-04 12:00:01,987 INFO /usr/local/bin/bench --verbose --site all backup
+2023-11-04 18:00:01,735 INFO /usr/local/bin/bench --verbose --site all backup
+2023-11-05 00:00:02,202 INFO /usr/local/bin/bench --verbose --site all backup
+2023-11-05 06:00:02,029 INFO /usr/local/bin/bench --verbose --site all backup
+2023-11-05 12:00:02,149 INFO /usr/local/bin/bench --verbose --site all backup
+2023-11-05 15:23:07,971 INFO /usr/local/bin/bench start
+2023-11-05 15:23:08,790 INFO /usr/local/bin/bench worker --queue default
+2023-11-05 15:23:08,898 INFO /usr/local/bin/bench schedule
+2023-11-05 15:23:08,899 INFO /usr/local/bin/bench worker --queue long
+2023-11-05 15:23:08,902 INFO /usr/local/bin/bench serve --port 8000
+2023-11-05 15:23:08,930 INFO /usr/local/bin/bench worker --queue short
+2023-11-05 15:23:08,940 INFO /usr/local/bin/bench watch
+2023-11-05 18:00:01,889 INFO /usr/local/bin/bench --verbose --site all backup
+2023-11-06 00:00:01,327 INFO /usr/local/bin/bench --verbose --site all backup
+2023-11-06 06:00:01,484 INFO /usr/local/bin/bench --verbose --site all backup
+2023-11-06 12:00:01,986 INFO /usr/local/bin/bench --verbose --site all backup
+2023-11-06 18:00:01,573 INFO /usr/local/bin/bench --verbose --site all backup
+2023-11-07 00:00:01,743 INFO /usr/local/bin/bench --verbose --site all backup
+2023-11-07 06:00:02,276 INFO /usr/local/bin/bench --verbose --site all backup
+2023-11-07 12:00:02,187 INFO /usr/local/bin/bench --verbose --site all backup
+2023-11-07 18:00:02,165 INFO /usr/local/bin/bench --verbose --site all backup
+2023-11-08 00:00:01,729 INFO /usr/local/bin/bench --verbose --site all backup
+2023-11-08 06:00:01,575 INFO /usr/local/bin/bench --verbose --site all backup
+2023-11-08 12:00:01,418 INFO /usr/local/bin/bench --verbose --site all backup
+2023-11-08 18:00:01,300 INFO /usr/local/bin/bench --verbose --site all backup
+2023-11-09 00:00:02,189 INFO /usr/local/bin/bench --verbose --site all backup
+2023-11-09 06:00:02,032 INFO /usr/local/bin/bench --verbose --site all backup
+2023-11-09 10:04:47,946 INFO /usr/local/bin/bench start
+2023-11-09 10:23:16,460 INFO /usr/local/bin/bench start
+2023-11-09 10:23:17,298 INFO /usr/local/bin/bench watch
+2023-11-09 10:23:17,422 INFO /usr/local/bin/bench worker --queue default
+2023-11-09 10:23:17,480 INFO /usr/local/bin/bench worker --queue long
+2023-11-09 10:23:17,493 INFO /usr/local/bin/bench schedule
+2023-11-09 10:23:17,496 INFO /usr/local/bin/bench worker --queue short
+2023-11-09 10:23:17,521 INFO /usr/local/bin/bench serve --port 8000
+2023-11-09 10:46:13,260 INFO /usr/local/bin/bench start
+2023-11-09 10:46:13,997 INFO /usr/local/bin/bench schedule
+2023-11-09 10:46:14,040 INFO /usr/local/bin/bench watch
+2023-11-09 10:46:14,151 INFO /usr/local/bin/bench worker --queue long
+2023-11-09 10:46:14,337 INFO /usr/local/bin/bench worker --queue default
+2023-11-09 10:46:14,353 INFO /usr/local/bin/bench worker --queue short
+2023-11-09 10:46:14,376 INFO /usr/local/bin/bench serve --port 8000
+2023-11-09 12:00:01,352 INFO /usr/local/bin/bench --verbose --site all backup
+2023-11-09 18:00:02,359 INFO /usr/local/bin/bench --verbose --site all backup
+2023-11-10 00:00:01,499 INFO /usr/local/bin/bench --verbose --site all backup
+2023-11-10 06:00:02,148 INFO /usr/local/bin/bench --verbose --site all backup
